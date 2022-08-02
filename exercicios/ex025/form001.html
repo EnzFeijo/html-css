@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Helvetica;
+        }
+
+        body {
+            background-color: #00CCC0;
+            color: black;
+        }
+
+        nav {
+            padding-left: 40px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            display: block;
+            color: white;
+            background-color: #1B7F79;
+            border-bottom: 2px solid rgb(176, 176, 176);
+        }
+
+        nav h1 {
+            text-align: center;
+            font-size: 42px;
+        }
+
+        nav p {
+            display:inline-flex;
+            font-weight: bold;
+        }
+
+        nav a {
+            padding: 15px;
+            margin: 6px;
+            margin-top: 20px;
+            margin-bottom: auto;
+            text-decoration: none;
+            color: white;
+            background-color: #FF4858;
+            border-radius: 6px;
+
+        }
+
+        nav a:hover {
+            opacity: 100%;
+            background:#f70015;
+            transition-duration: 0.4s;
+        }
+        
+
+        h2 {
+            text-align: center;
+            padding: 30px;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+
+        form p {
+            padding-bottom: 30px;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        form p input.btn {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #FF4858;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+
+
+        form p input.nome {
+            border-radius: 6px;
+            width: 30%;
+            padding:6px;
+            font-size: 20px;
+            background-color:#e5e5e5;
+        }
+
+        footer {
+            background-color: #1B7F79;
+            border-top: 2px solid rgb(176, 176, 176);;
+            margin-top: 120px;
+            padding: 59px;
+        }
+
+        footer p {
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Self.Formulários.&copy;</h1>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">Produtos</a></p>
+        <p><a href="#">Contato</a></p>
+    </nav>
+
+    <h2>Meu primeiro formulário</h2>
+
+    <form action="cadastro.php" autocomplete="off">
+
+        <p>
+            <label for="inome">Nome:</label> <input class="nome" type="text" name="nome" id="inome">
+        </p>
+
+        <p>
+            <label for="isobrenome">Sobrenome:</label> <input class="nome" type="text" name="nome" id="isobrenome">
+        </p>
+
+        <p><input class="btn" type="submit" value="Enviar"></p>
+    
+    </form>
+
+
+    <footer>
+        <div>
+            <p>Self.Formulários &copy; 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
