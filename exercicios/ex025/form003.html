@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required autocomplete="username" maxlength="30" size="20" placeholder="Ex: José Nunes">
+        </p>
+
+        <p>
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" required autocomplete="current-password" minlength="8" maxlength="20" size="20" placeholder=>
+        </p>
+
+        <p>
+            <label for="idade">Idade: </label>
+            <input type="number" name="idade" id="iidade" required min="0" max="120" >
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
