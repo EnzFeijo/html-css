@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Treinamento</title>
+</head>
+<body>
+    <nav>
+        <h1>Self Log</h1>
+        
+        <div class="links">
+            <p><a href="#">Home</a></p>
+            <p><a href="#">Produtos</a></p>
+            <p><a href="#">Contato</a></p>
+        </div>
+    </nav>
+    
+
+    <form action="cadastro" method="post">
+
+        <fieldset>
+            <legend>Cadastro</legend>
+
+            <label for="iemail">Email: </label>
+            <input type="email" name="email" id="iemail">
+            <br>
+            <br>
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen">
+            <br>
+            <br>
+            <input class="submit" type="submit" value="Enviar">
+            <input class="submit" type="reset" value="Limpar">
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Games-Favoritos</legend>
+
+            <input class="games" type="checkbox" name="Xbox" id="ixbox"><label for="ixbox">Xbox One</label>
+            <br>
+            <input class="games" type="checkbox" name="play" id="iplay"><label for="iplay">PlayStation</label>
+            <br>
+            <input class="games" type="checkbox" name="nin" id="inin"><label for="inin">Nintendo Switch</label>
+            <br>
+            <input class="games" type="checkbox" name="mobile" id="imobi"><label for="imobi">Mobile</label>
+            <br>
+            <input class="games" type="checkbox" name="pc" id="ipc"><label for="ipc">PC</label>
+
+        </fieldset>
+    </form>
+
+    <footer>
+        <a href="#">Self Log &copy;</a>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
