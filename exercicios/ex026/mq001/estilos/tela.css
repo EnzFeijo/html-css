@@ -18,14 +18,17 @@ header {
 }
 
 h1 {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 6px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
 }
 
 menu {
-    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    padding-left: px;
     padding-bottom: 15px;
     text-align: center;
 }
@@ -72,14 +75,20 @@ h2 {
 
 body {
     background-color: #dcdcdc;
+    line-height: 2.5em;
 }
 
 main {
+    display: flex;
+    justify-content: center;
     background-color:#f0f8ff;
+    max-width: 50%;
+    min-width: 252px;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
     padding: 15px;
     margin-top: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
     border-radius: 5px;
 }
 
