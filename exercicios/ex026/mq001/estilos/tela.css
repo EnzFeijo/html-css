@@ -75,10 +75,9 @@ h2 {
 
 body {
     background-color: #dcdcdc;
-    line-height: 2.5em;
 }
 
-main {
+div {
     display: flex;
     justify-content: center;
     background-color:#f0f8ff;
@@ -93,6 +92,7 @@ main {
 }
 
 article > p {
+    height: 30%;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
